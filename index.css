@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+}
+
+#login-signup-container {
+    text-align: center;
+    display: flex;
+    width: 80%
+    justify-content: space-around;
+    padding: 50px;
+    background-color: yellowgreen;
+}
+
+form {
+    border: 8px solid ;
+    border-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+form input {
+    display: block;
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+}
+form button{
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+}
+form p {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+#account-balance-container {
+    display: flex;
+    align-items: center;
+}
+
+#account-balance-container button {
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#ads-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.ad-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    margin: 0 10px;
+}
+
+#withdraw-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#withdraw-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #fff;
+}
+
